@@ -23,7 +23,7 @@
 ### Блок-схема
 ![Блок-схема алгоритма](Блок-схема.png) 
 
- [https://vk.ru/away.php?to=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1TzKVOncmQxCgRCD4OuH6J0DcoNlttgAZ%2Fview%3Fusp%3Dsharing&utf=1]
+ [https://drive.google.com/file/d/1TzKVOncmQxCgRCD4OuH6J0DcoNlttgAZ/view?usp=sharing]
 
 
 ## 2. Реализация программы
