@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <locale.h>
 
+void schitat_sdachu(float perchatki, float portfel, float galstuk, float summa);
+
 int main() {
 	setlocale(LC_CTYPE, "ru_RU.UTF-8");
 	float A, B, C, D;
-	float change;
 
 	printf("Стоимость перчаток: ");
 	scanf_s("%f", &A);
@@ -18,9 +19,12 @@ int main() {
 	printf("Исходная сумма: ");
 	scanf_s("%f", &D);
 
-	change = D - (A + B + C);
-
-	printf("Сдача: %.2f руб. \n", change);
+	schitat_sdachu(A, B, C, D);
 
 	return 0;
+}
+
+void schitat_sdachu(float perchatki, float portfel, float galstuk, float summa) {
+	float sdacha = summa - (perchatki + portfel + galstuk);
+	printf("Сдача: %.2f руб. \n", sdacha);
 }
